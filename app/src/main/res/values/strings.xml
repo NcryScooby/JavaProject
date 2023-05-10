@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="clique_para_logar">Clique para Logar</string>
+    <string name="clique_para_se_registrar">Clique para se registrar</string>
+    <string name="logout">Logout</string>
+</resources>
