@@ -39,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         btnNew.setOnClickListener(view -> {
-            Toast.makeText(MainActivity.this, "Botão Novo clicado", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(MainActivity.this, "Botão Novo clicado", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getApplicationContext(), NovoGasto.class);
+            startActivity(intent);
+            finish();
         });
 
         button.setOnClickListener(view -> {

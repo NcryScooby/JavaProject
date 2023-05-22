@@ -25,6 +25,6 @@
         android:id="@+id/btn_new"
         android:layout_width="203dp"
         android:layout_height="wrap_content"
-        android:text="New" />
+        android:text="Novo gasto" />
 
 </LinearLayout>
